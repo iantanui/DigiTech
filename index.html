@@ -1,98 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DigiTech</title>
     <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
     <header>
-      <nav>
-        <h1>DigiTech</h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#products">Products</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+        <nav>
+            <h1 class="logo">DigiTech</h1>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="hero">
+            <h2>Innovating Audio Solutions</h2>
+            <p>Discover premium audio equipment tailored for musicians and recording studios.</p>
+            <a href="#products" class="cta-button">Explore Products</a>
+        </div>
     </header>
     <main>
-      <section id="about">
-        <h2>About Us</h2>
-        <p>
-          DigiTech is a leading provider of custom audio solutions for musicians
-          and recording studios worldwide. Located in a picturesque fishing
-          village on the southern coast of Ireland, DigiTech combines
-          cutting-edge technology with a passion for music to create products
-          that inspire creativity.
-        </p>
-        <img
-          src="https://via.placeholder.com/800x400"
-          alt="DigiTech office in Ireland"
-        />
-      </section>
-      <section id="products">
-        <h2>Our Products</h2>
-        <div class="product">
-          <h3>ProSound Mixer 500</h3>
-          <p>
-            A compact and versatile audio mixer with studio-quality effects,
-            ideal for live performances and home studios.
-          </p>
-        </div>
-        <div class="product">
-          <h3>Custom Studio Monitors</h3>
-          <p>
-            High-fidelity studio monitors tailored to your room acoustics,
-            delivering unparalleled sound accuracy.
-          </p>
-        </div>
-        <div class="product">
-          <h3>Wireless Audio Interface</h3>
-          <p>
-            Revolutionary wireless audio interface for seamless recording and
-            playback with zero latency.
-          </p>
-        </div>
-      </section>
-      <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-          <li>
-            <strong>Custom Audio Equipment Design:</strong> Tailored solutions
-            for musicians and studios.
-          </li>
-          <li>
-            <strong>Technical Support:</strong> Expert guidance for setup and
-            troubleshooting.
-          </li>
-          <li>
-            <strong>Workshops & Training:</strong> Learn to maximize the
-            potential of your audio equipment.
-          </li>
-        </ul>
-      </section>
-      <section id="contact">
-        <h2>Contact Us</h2>
-        <p>
-          We’d love to hear from you! Get in touch with us through any of the
-          methods below:
-        </p>
-        <ul>
-          <li>
-            Email:
-            <a href="mailto:support@digitech.com">support@digitech.com</a>
-          </li>
-          <li>Phone: +353 1 234 5678</li>
-          <li>Address: Main Street, Coastal Village, Ireland</li>
-        </ul>
-      </section>
-    </main>
+        <section id="about" class="section">
+            <h2>About Us</h2>
+            <p>
+                Located on the beautiful southern coast of Ireland, DigiTech provides cutting-edge audio solutions that redefine the art of sound. 
+                We specialize in crafting audio equipment for musicians and studios who demand the best.
+            </p>
+            <img src="https://via.placeholder.com/800x400" alt="DigiTech Office" class="responsive-img">
+        </section>
 
+        <section id="products" class="section dark-section">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                
+                <div class="product-card">
+                    <img src="img/Pro-Sound-mixer.jpeg" alt="ProSound Mixer" />
+                    <h3>ProSound Mixer</h3>
+                    <p>Versatile audio mixer with studio-quality effects, perfect for both beginners and professionals.</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/dynamic-micro.jpg" alt="Dynamic Microphone" />
+                    <h3>Dynamic Microphone</h3>
+                    <p>High-quality dynamic microphone designed for live performances and studio recordings.</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/Power-conditioner.jpg" alt="Power Conditioner" />
+                    <h3>Power Conditioner</h3>
+                    <p>Protects your audio equipment from power surges and ensures clean, uninterrupted power for sensitive devices.</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/portable-audio-recorder.jpg" alt="Portable Audio Recorder" />
+                    <h3>Portable Audio Recorder</h3>
+                    <p>Handheld audio recorder designed for field recordings, interviews, and capturing high quality sound anywhere</p>                        .</p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="img/studio monitors.jpg" alt="Custom Studio Monitors" />
+                    <h3>Custom Studio Monitors</h3>
+                    <p>High-fidelity monitors tailored to your acoustic environment, offering clear, balanced sound.</p>
+                </div>
+                
+                <div class="product-card">
+                    <img src="img/wireless-audio.jpg" alt="Wireless Audio Interface" />
+                    <h3>Wireless Audio Interface</h3>
+                    <p>Seamless recording and playback with zero latency, designed for ultimate convenience and performance.</p>
+                </div>
+               
+                <div class="product-card">
+                    <img src="img/acoustic treatment kit.jpg" alt="Acoustic Treatment Kit" />
+                    <h3>Acoustic Treatment Kit</h3>
+                    <p>Achieve professional-level sound by improving the acoustics of your home studio with this all-in-one kit.</p>
+                </div>
+
+                <div class="product-card">
+                    <img src="img/controller.jpg" alt=" MIDI Controller" />
+                    <h3> MIDI Controller</h3>
+                    <p>High-quality, compact, portable MIDI controller for creating music with precision and ease.</p>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Custom Audio Solutions</h3>
+                    <p>We specialize in creating bespoke audio equipment tailored to your specific needs. From home studios to professional recording setups, our custom audio solutions ensure unmatched sound quality and performance.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Repair and Maintenance</h3>
+                    <p>Our expert technicians provide comprehensive repair and maintenance services to keep your audio equipment in peak condition. We handle everything from minor adjustments to major overhauls with precision and care.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Audio Consultation</h3>
+                    <p>Not sure what audio setup is best for you? Our team offers personalized consultations to guide you in selecting the perfect equipment and configurations for your unique requirements.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Workshops and Training</h3>
+                    <p>Learn the art of audio production with our hands-on workshops and training sessions. Designed for beginners and professionals alike, these sessions help you master the latest techniques and tools in audio engineering.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Online Support</h3>
+                    <p>Our dedicated online support team is available 24/7 to assist you with troubleshooting, setup guidance, and answering all your audio-related queries.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Professional Audio Installation</h3>
+                    <p>We provide professional installation services for studios, performance venues, and home systems. Our experts ensure seamless integration and optimal sound delivery.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Soundproofing Solutions</h3>
+                    <p>We offer soundproofing solutions for both home and professional environments. Whether it's for a recording studio or a home theater, our team ensures that your space provides the perfect acoustics.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="section dark-section">
+            <h2>Contact Us</h2>
+            <p>Have questions? Reach out to us below</p>
+            <ul class="contact-info">
+                <li>Email: <a href="mailto:support@digitech.com">support@digitech.com</a></li>
+                <li>Phone: +353 1 234 5678</li>
+                <li>Address: Main Street, Coastal Village, Ireland</li>
+            </ul>
+        </section>
+
+    </main>
     <footer>
-        <p>&copy; 2024 DigiTech | Webmaster: [Your Name] | Student Number: [Your Student Number]</p>
+        <p>&copy; 2024 DigiTech. Designed by [Your Name] | Student Number: [Your Student Number]</p>
     </footer>
-  </body>
+</body>
 </html>
